@@ -2,13 +2,9 @@ FROM alpine:3.14.3
 
 ARG AVAHI_VERSION=0.8
 ARG AVAHI_RELEASE=r0
-ARG BUILD_DATE
-ARG VCS_REF
-
 LABEL maintainer niclas@mietz.io
 
-LABEL org.label-schema.build-date=$BUILD_DATE \
-    org.label-schema.docker.dockerfile="/Dockerfile" \
+LABEL org.label-schema.docker.dockerfile="/Dockerfile" \
     org.label-schema.license="MIT" \
     org.label-schema.name="Docker Avahi" \
     org.label-schema.url="https://github.com/rafaribe/docker-avahi/" \

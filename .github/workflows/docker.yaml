@@ -59,7 +59,4 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           secrets: |
-            "github_token=${{ secrets.GITHUB_TOKEN }}"
-          build-args: |
-            BUILD_DATE=`date --rfc-3339=s`
-            VCS_REF=`git rev-parse --short HEAD`
+            "github_token=${{ secrets.GITHUB_TOKEN }}"`
