@@ -8,7 +8,6 @@ LABEL org.label-schema.docker.dockerfile="/Dockerfile" \
     org.label-schema.license="MIT" \
     org.label-schema.name="Docker Avahi" \
     org.label-schema.url="https://github.com/rafaribe/docker-avahi/" \
-    org.label-schema.vcs-ref=$VCS_REF \
     org.label-schema.vcs-url="https://github.com/rafaribe/docker-avahi.git" \
     org.label-schema.vcs-type="Git"
 
