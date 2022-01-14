@@ -2,8 +2,8 @@ name: docker
 
 on:
   push:
-  #  tags:
-  #    - '*'
+    tags:
+      - '*'
 
 jobs:
   #Using this action https://github.com/marketplace/actions/build-and-push-docker-images
@@ -36,7 +36,7 @@ jobs:
           images: |
             ghcr.io/${{ github.repository }}
           flavor: |
-            latest=true
+            latest=auto
           labels: |
             org.opencontainers.image.title="Docker Avahi"
             org.opencontainers.image.description="Docker Avahi"
