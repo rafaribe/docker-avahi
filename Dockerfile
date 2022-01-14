@@ -1,7 +1,7 @@
 FROM alpine:3.14.3
 
 ARG AVAHI_VERSION=0.8
-ARG AVAHI_RELEASE=r0
+ARG AVAHI_RELEASE=r5
 LABEL maintainer niclas@mietz.io
 
 LABEL org.label-schema.docker.dockerfile="/Dockerfile" \
