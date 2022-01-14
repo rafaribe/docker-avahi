@@ -34,7 +34,6 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: |
-            ${{ github.repository }}
             ghcr.io/${{ github.repository }}
           flavor: |
             latest=true
